@@ -7,7 +7,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, span {
-    color; #242424;
+    color: #242424;
     text-align: center;
     line-height: 1.25;
 }
@@ -85,7 +85,7 @@ nav {
     color: white;
 }
 
-.nav__link--anchor-primary: hover{
+.nav__link--anchor-primary:hover{
     background-color: 5d3eff;
 }
 
@@ -130,14 +130,12 @@ nav {
 
 
 .about-me__picture {
-    width: 100%;
-}
-
-/* Improving my own picture */
-
+width: 100%;
 transform: scale(1.5);
 padding-top: 8px;
 }
+
+/* Improving my own picture */
 
 .about-me__info--title {
     margin-bottom: 16px;
@@ -250,3 +248,17 @@ padding-top: 8px;
 .project__list {
     padding-top: 40px;
 }
+
+.project_description {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50);
+    max-width: 550px;
+}
+
+.project_description--title,
+.project_description--sub-title,
+.project_description--para,
+text-align: left;
+color: #fff;
